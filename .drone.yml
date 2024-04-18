@@ -101,7 +101,7 @@ steps:
 - name: publish_s3_release
   image: plugins/s3
   settings:
-    bucket: cliente-pruebas-sga
+    bucket: cliente-pruebas-sisgplan
     access_key:
       from_secret: aws_access_key_id
     secret_key:
@@ -119,7 +119,7 @@ steps:
 - name: publish_s3_master
   image: plugins/s3
   settings:
-    bucket: cliente-prod
+    bucket: cliente-pruebas-sisgplan
     access_key:
       from_secret: aws_access_key_id
     secret_key:
