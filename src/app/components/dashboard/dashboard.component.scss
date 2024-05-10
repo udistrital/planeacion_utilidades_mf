@@ -1,16 +1,22 @@
-.container-baner{
-    background: linear-gradient(to top left, var(--primary), white);
-    height: 400px;
-    text-align: center;
-    padding-top: 5%;
+*:not(mat-icon) {
+  font-family: Roboto, "Helvetica Neue", sans-serif !important;
 }
-.title-home{
-    color: white;
-    opacity: none;
-    font-size: 60px;
+
+.container-baner {
+  background: linear-gradient(to top left, var(--primary), white);
+  height: 400px;
+  text-align: center;
+  padding-top: 5%;
 }
-.guide-home{
-    color: var(--primary);
-    opacity: none !important;
-    font-size: 1.1em;
+
+.title-home {
+  color: white;
+  opacity: none;
+  font-size: 60px;
+}
+
+.guide-home {
+  color: var(--primary);
+  opacity: none !important;
+  font-size: 1.1em;
 }
