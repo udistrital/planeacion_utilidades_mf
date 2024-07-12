@@ -16,7 +16,7 @@ const routes: Routes = [
   exports: [RouterModule],
   providers: [
     provideRouter(routes),
-    { provide: APP_BASE_HREF, useValue: '/utilidades/' },
+    { provide: APP_BASE_HREF, useValue: '/pages' },
     getSingleSpaExtraProviders(),
     provideHttpClient(withFetch())
   ]
